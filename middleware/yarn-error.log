@@ -1,0 +1,55 @@
+Arguments: 
+  /Users/richardrohrig/.nvm/versions/node/v20.8.1/bin/node /usr/local/bin/yarn add vsf-deployme-api-client
+
+PATH: 
+  /Users/richardrohrig/.bun/bin:/opt/homebrew/opt/ruby@3.2/bin:/opt/homebrew/opt/ruby@3.0/bin:/opt/homebrew/opt/ruby/bin:/Users/richardrohrig/.composer/vendor/bin:/Users/richardrohrig/.nvm/versions/node/v20.8.1/bin:/Users/richardrohrig/.nvm/versions/node/v20.8.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/usr/local/go/bin:/Users/richardrohrig/.bun/bin:/opt/homebrew/opt/ruby@3.2/bin:/opt/homebrew/opt/ruby@3.0/bin:/opt/homebrew/opt/ruby/bin:/Users/richardrohrig/.composer/vendor/bin:/Users/richardrohrig/.nvm/versions/node/v20.8.1/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/Applications/kitty.app/Contents/MacOS:/Users/richardrohrig/Library/Application Support/JetBrains/Toolbox/scripts:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/richardrohrig/.yarn/bin:/Users/richardrohrig/.yarn-config/global/node_modules/.bin:/Users/richardrohrig/go/bin:/Users/richardrohrig/Library/Application Support/JetBrains/Toolbox/scripts:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/richardrohrig/.yarn/bin:/Users/richardrohrig/.yarn-config/global/node_modules/.bin:/Users/richardrohrig/go/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.8.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@vue-storefront%2fintegration-boilerplate-api: Not found
+      at params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:514:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:514:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:628:28)
+      at IncomingMessage.emit (node:events:526:35)
+      at endReadableNT (node:internal/streams/readable:1408:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "@vue-storefront/integration-boilerplate-playground",
+    "private": true,
+    "version": "0.1.0",
+    "engines": {
+      "node": ">=16.x"
+    },
+    "scripts": {
+      "dev": "nodemon --watch node middleware.js"
+    },
+    "dependencies": {
+      "@vue-storefront/middleware": "3.6.1",
+      "@vue-storefront/integration-boilerplate-api": "*",
+      "cors": "^2.8.5"
+    },
+    "files": [
+      "lib/**/*",
+      "server/**/*"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
